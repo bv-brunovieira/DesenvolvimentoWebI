@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+
+    <title>Check-Up</title>
+</head>
+<body>
+    <div class="container">
+    <nav class="navbar navbar-expand-sm bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="imgs\logo.png" alt="Logo" style="width:100px;">
+        </a>
+            <div class="collapse navbar-collapse justify-content-center">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="inicio.html">Inicio</a>
+                <a class="nav-item nav-link active" href="servicos.html">Serviços</a>
+                <a class="nav-item nav-link active" href="quemSomos.html">Quem Somos</a>
+                <a class="nav-item nav-link active" href="contato.html">Contato/Orçamento</a>
+            </div>
+        </div>
+    </nav>
+    <br>        
+        <h4>Envie-nos uma mensagem</h4>
+            <p>Se você possui alguma dúvida ou apenas deseja entrar em contato conosco,
+            por favor, sinta-se livre para enviar uma mensagem para nossa equipe!</p>
+
+        <form action="http://adairsojr.ddns.net/processa_formulario.php" method="POST" name="formularioContato">
+        
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nome">Nome</label>
+                    <input type="text" class="form-control" id="nome" placeholder="seu nome completo" name="nome">
+                    <small id="msgNome" class="form-text text-danger"></small>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="telefone">Telefone</label>
+                    <input type="number" class="form-control" id="telefone" placeholder="seu telefone" name="telefone">
+                    <small id="msgTelefone" class="form-text text-danger"></small>
+                </div>
+                <div class="form-group col-md-5">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="seu email" name="email"> 
+                    <small id="msgEmail" class="form-text text-danger"></small>                  
+                </div>
+                <div class="form-group col-md-7">
+                    <label for="assunto">Assunto</label>
+                    <input type="text" class="form-control" id="assunto" placeholder="o assunto" name= "assunto">
+                    <small id="msgAssunto" class="form-text text-danger"></small>
+                </div>
+                <div class="form-group col-md-12">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea class="form-control" id="mensagem" name="mensagem" placeholder="a sua mensagem" rows="3"></textarea>                
+                    <small id="msgMensagem" class="form-text text-danger"></small>
+                </div>
+                <br>
+                <br>
+                <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>                  
+    </div>
+    <br>
+    <div class="row footer-widget-section">
+        <div class="col-md-6 col-sm-6 footer-widget-column">
+            <h4>Endereço</h4>    
+            <div>Rua do cliente, número 1 - Centro.</div>   
+            <div>Telefone: (67) 0000-1111. WhatsApp (67) 0000-1111.</div>
+            <div>Email: atendimento@checkup.com.br.</div>
+        </div>
+        <div class="col-md-6 col-sm-6 footer-widget-column">
+            <h4>Antendimento</h4>
+                <p>Segunda a Sexta das 07:00 às 11:00 e aos Sábados das 07:00 às 11:00.</p>        
+        </div> 
+    </div>
+    <br>
+    <script language="JavaScript" type="text/JavaScript" src="js/trabalhoFinal.js"></script>
+</body>
+</html>
