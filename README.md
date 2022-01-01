@@ -5,6 +5,8 @@ Objetivo: Desenvolver uma página estática de um produto/serviço que permite f
 
 Tecnologias utilizadas: JavaScript, HTML, CSS e Bootstrap.
 
+Fique a vontade para colaborar no projeto. Qualquer dúvida entre em contato!
+
 <div style="display: inline_block"><br>
   <img align="center" alt="Bruno-JS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">  
   <img align="center" alt="Bruno-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
